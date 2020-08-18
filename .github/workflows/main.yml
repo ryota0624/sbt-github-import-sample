@@ -24,6 +24,7 @@ jobs:
         with:
           github-token: ${{ secrets.STEWARD_1 }}
           author-email: 12345+octocat@users.noreply.github.com
+          author-name: rat
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 #     - uses: actions#/checkout@v2
 

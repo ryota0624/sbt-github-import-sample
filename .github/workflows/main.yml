@@ -20,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Scala Steward Github Action
-        uses: scala-steward-org/scala-steward-action@v2.4.0
+        uses: scala-steward-org/scala-steward-action@v2.3.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it

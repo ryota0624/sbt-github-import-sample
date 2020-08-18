@@ -11,3 +11,5 @@ dependsOn(myReaderRepository)
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.6.0"
 libraryDependencies += "com.lightbend" %% "emoji" % "1.0.0"
+libraryDependencies += "com.lightbend" %% "emoji" % "1.0.0"
+libraryDependencies += "dev.zio" %% "zio" % "v1.0.0-RC8-8"

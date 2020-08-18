@@ -9,4 +9,4 @@ lazy val myReaderRepository = ProjectRef(uri("git://github.com/ryota0624/my-read
 dependsOn(myReaderRepository)
 
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
-libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2"
+libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.6.0"

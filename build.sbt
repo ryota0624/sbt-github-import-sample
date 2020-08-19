@@ -14,5 +14,5 @@ libraryDependencies += "com.lightbend" %% "emoji" % "1.0.0"
 libraryDependencies += "com.lightbend" %% "emoji" % "1.0.0"
 libraryDependencies += "dev.zio" %% "zio" % "1.0.0"
 
-val AkkaVersion = "2.5.31"
+val AkkaVersion = "2.6.8"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion

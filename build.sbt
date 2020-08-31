@@ -18,7 +18,7 @@ val AkkaVersion = "2.5.31"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion
 libraryDependencies += "com.typesafe.akka" %% "akka-stream" % AkkaVersion
 
-val circeVersion = "0.11.2"
+val circeVersion = "0.13.0"
 
 libraryDependencies ++= Seq(
   "io.circe" %% "circe-core",

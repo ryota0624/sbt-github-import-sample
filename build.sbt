@@ -12,7 +12,7 @@ libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.6.0"
 libraryDependencies += "com.lightbend" %% "emoji" % "1.0.0"
 libraryDependencies += "com.lightbend" %% "emoji" % "1.0.0"
-libraryDependencies += "dev.zio" %% "zio" % "1.0.0"
+libraryDependencies += "dev.zio" %% "zio" % "1.0.1"
 
 val AkkaVersion = "2.5.31"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion

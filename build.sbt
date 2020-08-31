@@ -17,3 +17,12 @@ libraryDependencies += "dev.zio" %% "zio" % "1.0.0"
 val AkkaVersion = "2.5.31"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion
 libraryDependencies += "com.typesafe.akka" %% "akka-stream" % AkkaVersion
+
+val circeVersion = "0.11.2"
+
+libraryDependencies ++= Seq(
+  "io.circe" %% "circe-core",
+  "io.circe" %% "circe-generic",
+  "io.circe" %% "circe-parser"
+).map(_ % circeVersion)
+

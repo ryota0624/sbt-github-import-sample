@@ -27,6 +27,8 @@ jobs:
         uses: scala-steward-org/scala-steward-action@v2.4.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          author-email: tennis.suta6@gmail.com
+          author-name: suta6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

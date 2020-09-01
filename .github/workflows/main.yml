@@ -19,10 +19,14 @@ jobs:
     steps:
       # - # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v1
+        env:
+          GITHUB_TOKEN: secrets.GITHUB_TOKEN
       - name: Scala Steward Github Action
         uses: scala-steward-org/scala-steward-action@v2.4.0
         with:
-          github-token: ${{ secrets.STEWARD_1 }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
 
 #     # Runs a single command using the runners shell

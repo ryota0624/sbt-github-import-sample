@@ -20,7 +20,7 @@ jobs:
       # - # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v1
+        uses: mxschmitt/action-tmate@v2
         env:
           GITHUB_TOKEN: secrets.GITHUB_TOKEN
       - name: Scala Steward Github Action

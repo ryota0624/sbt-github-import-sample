@@ -22,7 +22,7 @@ jobs:
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v2
         env:
-          GITHUB_TOKEN: secrets.GITHUB_TOKEN
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Scala Steward Github Action
         uses: scala-steward-org/scala-steward-action@v2.4.0
         with:

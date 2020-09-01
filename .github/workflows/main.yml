@@ -27,7 +27,8 @@ jobs:
         uses: scala-steward-org/scala-steward-action@v2.4.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 #     # Runs a single command using the runners shell
 #     - name: Run a one-line script

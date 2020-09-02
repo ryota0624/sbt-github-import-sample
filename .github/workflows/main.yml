@@ -40,7 +40,7 @@ jobs:
           author-email: tennis.suta6@gmail.com
           author-name: suta6
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.STEWARD_1 }}
 
 #     # Runs a single command using the runners shell
 #     - name: Run a one-line script
